@@ -15,7 +15,9 @@ print invo.login()
 print invo.customer_info("1234567890", "서비스", "서비스", "17")
 
 item = "품목명을 넣어주세요"
-print invo.service_info("0", "17", item, "50000000")
+print invo.service_info("0", "17", item, "500000")
+item = "품목이 두개일 수 있겠쥬"
+print invo.service_info("1", "17", item, "200000")
 
 print invo.issue()
 print invo.exit()
